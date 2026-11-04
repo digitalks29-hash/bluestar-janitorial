@@ -51,6 +51,7 @@ return <>
 <header className="site-header"><nav className="nav wrap" aria-label="Main navigation"><a className="brand" href="#" aria-label="Bluestar Janitorial LLC home">BLUESTAR JANITORIAL LLC</a><Button href={phone}>Call Now</Button></nav></header>
 <main id="main">
 <section className="hero purple">
+<div className="hero-equipment" aria-hidden="true" />
 <div className="wrap hero-inner"><p className="eyebrow">FAMILY-OWNED · GARLAND &amp; GREATER DFW</p><h1>Commercial Cleaning Services You Can Rely On</h1><p className="hero-description">Quality supplies. Professional equipment. Dependable care for your commercial space — from construction cleanup to beautifully finished floors.</p><Button/><div className="hero-photos"><Photo index={2} alt="Polished floors in a commercial retail space" eager/><Photo index={7} alt="Clean concrete flooring in a commercial facility" eager/></div></div>
 </section>
 <Wave/>
